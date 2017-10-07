@@ -1,0 +1,9 @@
+Building Protect
+
+See doc/readme-qt.rst for instructions on building Protect-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Protect.
+
+See doc/build-*.txt for instructions on building Protectd,
+the intended-for-services, no-graphical-interface, reference
+implementation of Protect.

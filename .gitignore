@@ -1,0 +1,40 @@
+src/*.exe
+src/protect
+src/protectd
+src/test_protect
+src/qt/locale/*.qm
+release/*
+debug/*
+*.Debug
+*.Release
+protect-qt_plugin_import.cpp
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.protect
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+protect-qt
+protect-Qt.app
+
+# Unit-tests
+Makefile.test
+protect-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
